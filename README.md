@@ -24,3 +24,45 @@ Then I usually do ```save "test.mat" cls``` to save ```cls``` to file. This allo
 I use ```Ascii.java```, but any program that can translate the indices into characters will work.
 
 You mileage may vary. Be warned.
+
+                                                                                          
+      | _…m                     mw……_¸               ¸_……wm                       w…[     
+            ¸_wm          mw_¸                               ¸_wm            w…¸    |     
+       |         ¸_wm W…¸                                         ¸…‰   w…¸        ’      
+                                                                                   |      
+        ’                                                                                 
+        |                                                                         [       
+         ’                                                                                
+         |                                                                       [        
+         ,                                                                       [        
+        ¸                  ˆ˜™™™™˜                       ˜™™™™™˜                  ,       
+       ¸                `P         ¶'                 'P         ¶’                ,      
+      ,                '             ¶               f             !                L     
+     |                        |   .   ]                     ,   .                    |    
+     ¸                        ¶˜ ˆ”   ]                     ¶˜ ˜P                    ,    
+                       ,             g               L             ,                      
+    |                   ¸w          ¸                 .‰         w¸                   |   
+    |                      ¸_…………¸                       ¸_………_¸                      |   
+                                                                                          
+     ’                                                                               ’    
+     |                              `PMM        MMMM“`                               |    
+      ’                             ,      mmm       ,                              ’     
+       ’                             ,   ¶      ’   ,                              '      
+        ’                 ¶           .   ¶’  `P   ,         `  ¶                 ’       
+         ³                 |            L   ¶”   d¸          |  |                ’        
+          ¶`            ,   ¶            .‰     ¸           ’   ¸              `P         
+            ”            .    ¶˜`     ˜”M        M™ˆ     ˜”    ¸             `“           
+              ”`           ¸‰             W¸¸ ¸‰             ,             `“             
+                ¶˜            ¸……wwwww…_¸        ¸_…wwmww…_¸             ˜P               
+                   ™ˆ                                                 ˜™                  
+                      ¶™`                                         `”M                     
+                          M™˜                                `˜™M                         
+                                M™™˜ˆ                 ˜˜™™M                               
+                                                                                          
+                                                                                          
+
+## FUTURE ADDITIONS (possibly)
+
+- Kernelize the input segments so that it represents linear sections of the input better
+- Keep searching for a better edge detection algorithm (currently Canny, although it doesn't give gradients which can be useful)
+- Find some way to emphasize connecting edges between blocks/penalizes rogue edges (like for those found in 'X')
